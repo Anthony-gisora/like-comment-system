@@ -39,7 +39,7 @@ function App () {
               {`${likes} like`}
             </div>
           </div>
-          <div className='flex justify-evenly w-[90%] p-2 mt-3'>
+          <div className='flex justify-evenly w-[90%] p-2 mt-3 '>
             {!message ? null : 
               <div className=''>
                 { like ? <AiFillLike className='text-[28px] text-blue-800 ' onClick={() => handleLike()} /> : <AiOutlineLike className='text-[28px] ' onClick={() => handleLike()} /> }
