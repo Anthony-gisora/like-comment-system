@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import {AiOutlineLike, AiFillLike, AiOutlineMessage, AiOutlineSend} from 'react-icons/ai'
 
 function App () {
