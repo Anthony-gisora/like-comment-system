@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import {AiOutlineLike, AiFillLike, AiOutlineMessage, AiOutlineSend} from 'react-icons/ai'
+import { AiOutlineLike, AiFillLike, AiOutlineMessage, AiOutlineSend } from 'react-icons/ai'
+
 
 function App () {
   const [ like, setLike ] = useState( false )
