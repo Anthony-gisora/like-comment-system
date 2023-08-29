@@ -31,7 +31,7 @@ function App () {
 
   return (
     <div className=" flex-col h-[100vh] w-[100vw] flex items-center justify-center bg-slate-500">
-      <div className='container flex flex-col items-center justify-center h-[60%] w-[95%] md:h-[50%] md:w-[40%]'>
+      <div className='container flex flex-col items-center justify-center h-[60%] w-[95%] md:h-[45%] my-auto md:w-[40%]'>
         <div>  
           <div className='container bg-slate-900 w-[90%] h-[80%]'>
             <img src={ process.env.PUBLIC_URL + '/assets/prof.jpg' } alt='Post' className='w-full h-full object-fill' />
@@ -58,7 +58,7 @@ function App () {
           </div>
         </div>
       </div>
-      <div className='h-[35%] m-auto  overflow-y-auto w-[80%] border p-2'>
+      <div className='h-[35%] md:h-[20%] m-auto  overflow-y-auto w-[80%] border p-2'>
         <h3 className='text-[16px] font-bold'>Comments</h3>
             {
               comment.map( ( com, index ) => {
